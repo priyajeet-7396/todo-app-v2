@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 //conection to db
-mongoose.connect("mongodb://127.0.0.1:27017/todolistdb");
+mongoose.connect("mongodb+srv://admin-priyajeet:Netid!6081@cluster0.tapae8e.mongodb.net/todolistdb");
 
 
 
